@@ -1,0 +1,18 @@
+Potion*303*Mana Restore*400*Epic*6*Restores Mana*2 minute(s)*false*false
+Armor*202*Leather Vest*100*Common*10*25*Leather*New*Medium*3.5*false
+Weapon*104*Rusty Dagger*50*Common*20*120*Battle Scarred*Low*2*false
+Potion*305*Invisibility Brew*800*Mythic*2*Turns User Invisible*5 minute(s)*false*false
+Weapon*101*Dragon Slayer*850*Epic*2*450*Field Tested*High*7.5*true
+Potion*300*Heal Pot*200*Common*10*Heals the Consumer*5 second(s)*false*false
+Armor*203*Enchanted Chestplate*700*Epic*2*60*Iron*Field Tested*High*9*true
+Weapon*102*Iron Sword*150*Common*15*200*New*Medium*5*false
+Potion*307*Toxic Gas*600*Epic*3*Area Poison Effect*1 minute(s)*true*true
+Weapon*100*Excalibur*1000*Mythic*1*500*New*High*6*true
+Potion*304*Fire Bomb*500*Epic*4*Explosive Fire Damage*10 second(s)*true*true
+Armor*200*Warmong*500*Epic*3*50*Iron*Field Tested*Medium*8*false
+Potion*301*Strength Elixir*350*Epic*5*Strength Boost*1 hour(s)*false*false
+Weapon*105*Mjolnir*950*Mythic*1*520*New*High*9.5*true
+Potion*306*Speed Boost*150*Common*12*Increases Movement Speed*3 minute(s)*false*false
+Weapon*103*Shadow Blade*600*Epic*3*380*Battle Scarred*Medium*4.5*true
+Armor*201*Dragon Scale Plate*1200*Mythic*1*85*Dragon Scale*New*High*12*true
+Potion*302*Poison Vial*250*Common*8*Poisonous*30 second(s)*true*true
