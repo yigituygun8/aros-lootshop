@@ -3,6 +3,37 @@
 > A game loot shop simulation with GUI, where users can browse and purchase various items such as weapons, armor, and potions. Admins can also add new items to the shop inventory.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)
+![OOP](https://img.shields.io/badge/OOP-Principles-green?style=for-the-badge)
+
+---
+
+## 🛠️ Technologies & Concepts Used
+
+### Languages & Frameworks
+| Technology | Description |
+|------------|-------------|
+| **Java** | Core programming language |
+| **Java Swing** | GUI framework for building the desktop application |
+| **AWT** | Abstract Window Toolkit for event handling and graphics |
+
+### Object-Oriented Programming (OOP) Concepts
+| Concept | Implementation |
+|---------|----------------|
+| **Abstraction** | `ShopItem` abstract class defines common item properties |
+| **Inheritance** | `Weapon`, `Armor`, `Potion` extend from `ShopItem` |
+| **Polymorphism** | Different item types processed uniformly through parent class |
+| **Encapsulation** | Private fields with public getters/setters |
+| **Interfaces** | `Purchasable` interface for items that can be bought |
+
+### Other Key Concepts
+| Concept | Usage |
+|---------|-------|
+| **File I/O** | Reading/writing product data from `products.txt` |
+| **Exception Handling** | Try-catch blocks for file operations and input validation |
+| **Collections** | ArrayList for managing shop inventory |
+| **Event-Driven Programming** | ActionListeners for button clicks and user interactions |
+| **MVC Pattern** | Separation of GUI (View), Shop logic (Controller), and Products (Model) |
 
 ---
 
