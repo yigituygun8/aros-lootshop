@@ -3,17 +3,16 @@
 > A game loot shop simulation with GUI, where users can browse and purchase various items such as weapons, armor, and potions. Admins can also add new items to the shop inventory.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Course](https://img.shields.io/badge/Course-CTIS221-blue?style=for-the-badge)
 
 ---
 
 ## 👥 Team Members
 
-| Name | Alias |
-|------|-------|
-| **Arda Planalı** | AR |
-| **Osman Yiğit Uygun** | OS |
-| **Gökşin Özdinç** | IN OUR HEARTS 💜 |
+| Name |
+|------|
+| **Arda Planalı** 
+| **Osman Yiğit Uygun** 
+| **Gökşin Özdinç** 
 
 ---
 
@@ -36,7 +35,7 @@
 
 | Password | `goksin` |
 |----------|----------|
-| **Note** | All lowercase, we love Gökşin! 💜 |
+| **Note** | All in lowercase |
 
 ### How to Access:
 1. Click **"To The Secret Passage"** button in the Lobby
@@ -80,7 +79,7 @@ src/
 | ID, Name, Base Price | Basic info |
 | Rarity, Quantity | Stock info |
 | Damage | Weapon-specific |
-| Stats | Status, Durability, Weight, isMagical |
+| Stats (has-a relation) | Status, Durability, Weight, isMagical |
 
 ### 🛡️ Armor
 | Attribute | Description |
@@ -88,7 +87,7 @@ src/
 | ID, Name, Base Price | Basic info |
 | Rarity, Quantity | Stock info |
 | Defence, Material | Armor-specific |
-| Stats | Status, Durability, Weight, isMagical |
+| Stats (has-a relation) | Status, Durability, Weight, isMagical |
 
 ### 🧪 Potion
 | Attribute | Description |
@@ -137,11 +136,11 @@ Potion*ID*Name*Base_Price*Rarity*Quantity*Effect*Duration*isHazardous*isThrowabl
 
 ```
                     ┌─────────────────┐
-                    │  AdminPanelFrame │
+                    │  AdminPanelFrame│
                     └────────▲────────┘
                              │
                     ┌────────┴────────┐
-                    │ AdminBridgePswd  │
+                    │ AdminBridgePswd │
                     └────────▲────────┘
                              │
 ┌──────────┐        ┌────────┴────────┐        ┌───────────────┐
@@ -158,8 +157,6 @@ Potion*ID*Name*Base_Price*Rarity*Quantity*Effect*Duration*isHazardous*isThrowabl
 
 ## 📜 License
 
-This project was created as part of the CTIS221 course at Bilkent University.
+This project was created as part of the CTIS221 course at Bilkent University, CTIS department.
 
 ---
-
-<p align="center">Made with ❤️ by Team AROS</p>
