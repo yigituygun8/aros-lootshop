@@ -1,0 +1,32 @@
+# Compiled class files
+bin/
+*.class
+
+# Eclipse IDE
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Package files (keeping demo JAR)
+# *.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
